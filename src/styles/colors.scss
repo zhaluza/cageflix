@@ -1,0 +1,52 @@
+$btn-default: #d42c42;
+$btn-hover: #da3e52;
+// change buttons to red
+
+$theme: #da3e52;
+
+$header: $btn-default;
+
+$selection: #f5f3f3;
+
+$dark: #2c363f;
+$text-dark: rgb(17, 17, 17);
+$light: #f5f5f5;
+$text-light: rgb(241, 241, 241);
+$cardBG: linear-gradient(
+  90deg,
+  rgb(150, 101, 227) 0%,
+  rgb(150, 101, 227) 48%,
+  rgb(126, 89, 198) 48%,
+  rgb(126, 89, 198) 64%,
+  rgb(102, 76, 168) 64%,
+  rgb(102, 76, 168) 66%,
+  rgb(78, 64, 139) 66%,
+  rgb(78, 64, 139) 67%,
+  rgb(53, 51, 109) 67%,
+  rgb(53, 51, 109) 69%,
+  rgb(29, 39, 80) 69%,
+  rgb(29, 39, 80) 79%,
+  rgb(5, 26, 50) 79%,
+  rgb(5, 26, 50) 100%
+);
+$cardBG-hover: linear-gradient(
+  90deg,
+  rgb(127, 0, 203) 0%,
+  rgb(127, 0, 203) 14%,
+  rgb(143, 41, 204) 14%,
+  rgb(143, 41, 204) 34%,
+  rgb(159, 81, 205) 34%,
+  rgb(159, 81, 205) 41%,
+  rgb(175, 122, 207) 41%,
+  rgb(175, 122, 207) 44%,
+  rgb(190, 163, 208) 44%,
+  rgb(190, 163, 208) 76%,
+  rgb(206, 203, 209) 76%,
+  rgb(206, 203, 209) 87%,
+  rgb(222, 244, 210) 87%,
+  rgb(222, 244, 210) 100%
+);
+
+// BOX SHADOWS
+$box-shadow-1: 0 0 7px 1px $dark;
+$box-shadow-2: 0 0 4px 1px rgba($dark, 0.4);

@@ -1,0 +1,54 @@
+@import '../../styles/buttons';
+@import '../../styles/colors.scss';
+
+.movie-card {
+  cursor: pointer;
+  width: 20vw;
+  background-image: $cardBG;
+  color: $light;
+  box-shadow: $box-shadow-1;
+  margin: 1.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  z-index: 0;
+  transition: 0.2s all ease-out;
+  &:active {
+    transform: translateY(2px);
+  }
+
+  .movie-card__img {
+    height: 40vh;
+    border-radius: 10px;
+  }
+  .movie-card__name {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .movie-card {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .movie-card {
+    width: 25vw;
+    &:hover {
+      transform: scale(1.02);
+    }
+    .movie-card__img {
+      height: 35vh;
+      border-radius: 10px;
+    }
+    .movie-card__name {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .movie-card {
+    width: 20vw;
+  }
+}

@@ -1,0 +1,64 @@
+@import '../../styles/colors.scss';
+.movie {
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .video-container {
+    position: relative;
+    width: 60%;
+    padding-bottom: 30% /* 16:9 */;
+    height: 0;
+    .video-container__trailer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .movie__info {
+    background: $dark;
+    color: $light;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 2rem;
+    width: 75vw;
+    text-align: center;
+    .movie__name {
+      font-size: 2.25rem;
+      color: $theme;
+    }
+    .movie__year {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .movie__director {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+    .movie__genre {
+      margin-bottom: 1rem;
+    }
+    .movie__summary {
+      text-align: left;
+    }
+  }
+}
+
+// Tablets & phones
+@media (max-width: 768px) {
+  .movie {
+    padding: 0.5rem;
+    .video-container {
+      width: 100%;
+      padding-bottom: 56.25% /* 16:9 */;
+    }
+    .movie__info {
+      width: 100%;
+    }
+  }
+}
