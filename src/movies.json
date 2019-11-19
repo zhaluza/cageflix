@@ -1220,11 +1220,26 @@
     "summary": "When a cocaine shipment is compromised to the dismay of a drug cartel's CEO, known simply as The Boss, he orders his most trusted henchman, The Cook, and his partner, another master drug trafficker known as The Man, on a dangerous journey to audit the company's supply chain. As the drugs make their perilous trek across international borders, past gangsters, refiners, and couriers, they are also being tracked by Federal Agents. When The Cook realizes where the network is breaking down, it may be too late to keep the cartel satisfied."
   },
   {
-    "name": "Color Out of Space",
+    "name": "Primal",
     "id": 85,
-    "image": "../../img/color-out-of-space.jpg",
+    "image": "../../img/primal.jpg",
     "decade": "10s",
     "year": 2019,
+    "rt_score": "36 (before release)",
+    "rt_range": "Rotten",
+    "director": "Nick Powell",
+    "freakout": false,
+    "genres": ["Action"],
+    "trailerURL": "https://www.youtube.com/embed/K7UF9BMgKts",
+    "short_summary": "A big-game hunter for zoos has booked passage on a Latin American shipping freighter with a fresh haul of exotic and deadly animals from the Amazon, including a rare white Jaguar - along with a political assassin being extradited to the U.S in secret. Two days into the journey, the assassin escapes and releases the captive animals, throwing the ship into chaos.",
+    "summary": "When Frank Walsh (Nicolas Cage), a hunter and collector of rare and exotic animals, bags a priceless white jaguar for a zoo, he figures it'll be smooth sailing to a big payday. But the ship bearing Frank's precious cargo has two predators caged in its hold: the cat, and a political assassin being extradited to the U.S. After the assassin breaks free - and then frees the jaguar - Frank feverishly stalks the ship's cramped corridors in hot pursuit of his prey, right up until the thrilling, unpredictable climax."
+  },
+  {
+    "name": "Color Out of Space",
+    "id": 86,
+    "image": "../../img/color-out-of-space.jpg",
+    "decade": "20s",
+    "year": 2020,
     "rt_score": "85 (before release)",
     "rt_range": "80-89",
     "director": "Richard Stanley",

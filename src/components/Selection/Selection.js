@@ -387,6 +387,7 @@ export default function Selection({
                 <option value='90s'>90s</option>
                 <option value='00s'>00s</option>
                 <option value='10s'>10s</option>
+                <option value='20s'>20s</option>
               </select>
             </div>
             <div className='selection__form-section'>
